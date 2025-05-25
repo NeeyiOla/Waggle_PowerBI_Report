@@ -44,7 +44,7 @@ As a **Business Intelligence Analyst** for **Waggle*, a startup that makes smart
 This success has led Waggle's CEO to push for feline version but there are concerns about its viability. For this reason, the product team distributed 1,000 Lapcat prototypes for field testing. Now, after months of data collection, **I have been tasked with delivering a boardroom-ready PowerBI report that tells the story of how the Lapcat data compares to finding from the dog collar Lapdog devices**. I am excited for the fact that my work will be presented at the highest levels of the company and will either help conince the CEO that Lapcat is the next big thing or a costly mistake to be avoided.
 
 
-# Project Statement 
+# Problem Statement 
 
 The CEO needs eveidence that the Laptcat device improves cat activity levels and provides owner satifaction on par with Lapdog. The CEO, Product and Marketing teams requires as follow:
 
@@ -53,6 +53,45 @@ The CEO needs eveidence that the Laptcat device improves cat activity levels and
   - Were ownera of Lapcat devices as satifies with the product as Lapdog owners?
 - The chief Marketing officer would like your report to be "on-brand" by including only colors from the waggle color palatte, the waggle logo, and other approved logos and icons.
 - The product team trusts ypu tp incorporate other visuals and insights as you see fit but is most interested in demoprahic comparision between the dogs and cats using Waggle devices as well as any information about the families who own the pets. They would also like slicers to help them filter and explore  on their own.
+
+# Stakeholder Engagement 
+## Target Stakeholder
+
+- **CEO** (Strategic Decision Making)
+- **Chief Marketing Officer** (Brand & Visuals)
+- **Product Development Team (Demographic & Performance Analytics)
+
+## Use Caes
+
+- Determine whether Lapcat improves pet fitness like Lapdog.
+- Assess owner satifaction and feedback.
+- Compare cat vs dog activity by demographic (age,weight, breed).
+- Evaluate if specific household types engage more with one product.
+- Empower team exploration with branded, interactive visuals.
+
+
+## Stakeholder Stories
+
+- "As the **CEO**, I want to know if cats wearing Lapcat increased daily steps, so i can justify investment.2
+- "As the **CMO**, I want brand consistency in visuals to maintain Marketing intergrity."
+- "As the **Product Development Team**, We want to compare pet activity, satifaction, and demographics to tailor future prototypes."
+
+## Acceptance Criteria
+
+- Executive report dashboard or summary page answering CEO questions
+- At least 7 different Power BI visuals accross report
+- At least 5 slicers per page (dropdown, slider, search, hierachy, select all)
+- Use of company colors, logos, icons
+- Bookmark features:
+  - One to switch between visuals
+  - One to reset all filters
+- Interactive buttons with hover effect for navigation
+
+## Success Criteria
+- Strategic clarity on Lapcat Viability
+- Enhanced team understanding of pet demographic behavior
+- High executive engagment through interactivity
+- Visual appeal reflecting Waggle's branding
 
 
 
