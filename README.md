@@ -94,14 +94,11 @@ The CEO needs eveidence that the Laptcat device improves cat activity levels and
 - Visual appeal reflecting Waggle's branding
 
 
-
-
-
-
-
 # Data Structure 
 
-In support of this project a data model has already been provided in a Power BI file, which the provided data model in Power BI includes:
+In support of this project a data model was already provided in a Power BI file by the former Business intelligence analyst which make the success of this project a step closer to the success of this project, the dataset for this project and how it been model to build a successful semantic data model is demostrated below.
+
+## Dataset
 
 #### FACT TABLE:  
 
@@ -180,9 +177,12 @@ In support of this project a data model has already been provided in a Power BI 
 | Year | --- | --- |
 | Year_Month | --- | --- |
 
+## Data model Structure
 
-as well as a variety of waggle marketing images and branding guidelines. My report would be enrich in a user friendly way by making sure it demostrate best practices in clean layout design and colour use, utlise at least 7 difference Power Bi visualisations, include buttons for navigation between pages and/or bookmarks, and satify the business project statement.
+With the Tracker_Data table being the fact table and the like of Rating_Data, Pet_Data, Family_Data, and Date_table being the dimension tabless, a many-to
+-one (*:1) relationship is establish from the Tracker_Data (Fact) table to the Dimension tables which is known as a **Star Schema** data model. the below image demostrate how the dataset is being model in the Model view Pane of power BI desktop.
 
+![Waggle Data model]()
 
 # Methodology 
 ## Tool Used
