@@ -4,7 +4,7 @@
 
 ![Waggle Lapdog and Lapcat Logos](
 
-#Table of Content
+# Table of Content
 - [Project Title](#project-title)
 - [My Role](#my-role)
 - [Project Overvies](#project-overview)
@@ -24,11 +24,16 @@
 
 
 # Project Title
-Comparitive Performance of Lapdog and Lapcat Smart device
+Lapcat vs Lapdog - Performance & Viability Report for Smart Pet De
 
 # My Role
-Business Intelligence Analyst
+**Business Intelligence Analyst/Power BI Developer**
 
+- Analysed Lapcat prototype vs Lapdog product data.
+- Created engaging, executive-level dashboard using Power BI.
+- Applied Waggle brand guidelines including logo, color palette, and iconography.
+- Built interactive filters, navigation buttons, and bookmarks to enhance exploration.
+- Delivered insights to inform product strategy, marketing, and go-to-marketing decisions
 
 
 
@@ -40,6 +45,8 @@ This success has led Waggle's CEO to push for feline version but there are conce
 
 
 # Project Statement 
+
+The CEO needs eveidence that the Laptcat device improves cat activity levels and provides owner satifaction on par with Lapdog. The CEO, Product and Marketing teams requires as follow:
 
 - The CEO is curious about the following questions:
   - Did the average daily steps ibrease for cats wearing the as they did for dogs?
