@@ -106,13 +106,13 @@ In support of this project a data model was already provided in a Power BI file 
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| Activity_Date | --- | --- |
-| Activity_Minutes | --- | --- |
-| Daily_Steps | --- | --- |
-| Family_ID | --- | --- |
-| Heartrate_BPM | --- | --- |
-| Pet_ID | --- | --- |
-| Tracker_ID | --- | --- |
+| Activity_Date | Date | Date of pet activity |
+| Activity_Minutes | Whole number | minutes per activities |
+| Daily_Steps | Whole number | count of steps for each pet daily |
+| Family_ID | whole number | Unique Identifier (Foreign Key) for the Family_data table |
+| Heartrate_BPM | Whole number | Heartrate vitals record |
+| Pet_ID | Whole number | Unique identifier (foriegn Key) for Pet_Data table |
+| Tracker_ID | Whole number | Unique identifier (Primary Key) for each record in the Tracker table |
 
 
 #### DIMENSION TABLE:
@@ -182,7 +182,7 @@ In support of this project a data model was already provided in a Power BI file 
 With the Tracker_Data table being the fact table and the like of Rating_Data, Pet_Data, Family_Data, and Date_table being the dimension tabless, a many-to
 -one (*:1) relationship is establish from the Tracker_Data (Fact) table to the Dimension tables which is known as a **Star Schema** data model. the below image demostrate how the dataset is being model in the Model view Pane of power BI desktop.
 
-![Waggle Data model]()
+![Waggle Data model](asset/Images/Star_Schema_data_model.png)
 
 # Methodology 
 ## Tool Used
