@@ -25,7 +25,7 @@
     - [Data Exploration & Profiling](#data-exploration--profiling)
     - [ETL Process Using Power Query and Data modeling](#etl-process-using-power-query-and-data-modeling)
     - [Measures Developmenr Using DAX](#measures-development-using-dax)
-    - [Dashboard Design & Visualisation](#dashboard-design--visualisation
+    - [Dashboard Design & Visualisation](#dashboard-design--visualisation)
     - [Plushing and Collaboration](#publishing-and-collaboration)
     - [Documentation & Version control](#documentation--version-control)
     - [Review & Iteration](#review--iteration)
