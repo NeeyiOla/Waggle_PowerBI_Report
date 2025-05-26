@@ -121,61 +121,60 @@ In support of this project a data model was already provided in a Power BI file 
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| Annual Pet Expenses | --- | --- |
-| City | --- | --- |
-| Country | --- | --- |
-| Email | --- | --- |
-| Family_ID | --- | --- |
-| Family_Name | --- | --- |
-| Household_Income | --- | --- |
-| State | --- | --- |
-| Total_Pets | --- | --- |
-| Years_Of_Ownership | --- | --- |
-| Zip | --- | --- |
-| State Hierarchy | --- | --- |
-| State | --- | --- |
-| Zip | --- | --- |
+| Annual Pet Expenses | Whole Number | Cost of maintaining a pet anually |
+| City | Text | City of residence |
+| Country | Text | Country of residence |
+| Email | Text | Email address of each family |
+| Family_ID | Whole Number | Unique identifier each record in the Family data table |
+| Family_Name | Text | name of family owning a pet device |
+| Household_Income | Decimal Number | Total income made by each family |
+| Hoiusehold_Size | Whole Number | Total count of individual in the family |
+| State | Text | State of residence |
+| Total_Pets | Whole Number | number of pet own by each family |
+| Years_Of_Ownership | Whole Number | Count total of years of owning  pet |
+| Zip | Whole Number | Country Zip code |
+
 
 **Pet_Data**  
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| Age | --- | --- |
-| Breed | --- | --- |
-| Dog/Cat | --- | --- |
-| Gender | --- | --- |
-| Name | --- | --- |
-| Pet_ID | --- | --- |
-| Weight | --- | --- |
+| Age | Whole Number | pet age (lat updated life cylce) |
+| Breed | Text | breed group of each pet |
+| Dog/Cat | Text | type of pet |
+| Gender | Text | sexual orentation of pet |
+| Name | Text | Pet name |
+| Pet_ID | Whole Number | Unique identifier for each pet in the Pet Data |
+| Weight | Whole Number | Measurement of each pet body mass |
 
 
 **Rating_Data**  
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| Comments | --- | --- |
-| Device | --- | --- |
-| Rating | --- | --- |
-| Review_Date | --- | --- |
-| Tracker | --- | --- |
-| Where Product was bought | --- | --- |
-| Would you Recommend | --- | --- |
+| Comments | Text | decsriptions for row |
+| Device | Text | type of device  |
+| Rating | Whole Number | Rating satifaction from each customer tracker |
+| Review_Date | Date | Date when the rating data table was review or updated |
+| Tracker_ID | Whole Number | Unique identifier for each tracker device in rating table |
+| Where Product was bought | Text | Feedback on a survey question |
+| Would you Recommend | Text | feedback on a survey question |
 
 
 #### DATE TABLE:
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| Date | --- | --- |
-| Day | --- | --- |
-| Day_of_Week | --- | --- |
-| Month | --- | --- |
-| Month_Num | --- | --- |
-| Month_Short | --- | --- |
-| Month_Year | --- | --- |
-| Weekday | --- | --- |
-| Year | --- | --- |
-| Year_Month | --- | --- |
+| Date | Date | Date |
+| Day | Whole Number | Day nunbering throughout the year |
+| Day_of_Week | Text | Days of the week name in full |
+| Month | Text | Month name in full |
+| Month_Num | Text | Numbering of Months accordingly |
+| Month_Short | Text | Short hand form of a month in words |
+| Month_Year | Text | Date period with the combination of Month first and then year |
+| Weekday | Whole Number | Days number in a week |
+| Year | Text | Year of a Date |
+| Year_Month | Text | Date period with the combination Year and month |
 
 ## Data model Structure
 
