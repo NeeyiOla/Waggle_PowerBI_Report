@@ -16,12 +16,23 @@
   - [Acceptance-Criteria](#acceptance-criteria)
   - [Success Criteria](#success-criteria)
 - [Data Source](#data-source)
+  - [Dataset](#dataset)
+  - [Data model stucture](#data-model-structure)
 - [Methodolody](#methodology)
   - [Tool Used](#tool-used)
   - [Development](#development)
-    - [
-
-
+    - [Project Planning & Requirement gathering](#project-planning--requirement-gathering)
+    - [Data Exploration & Profiling](#data-exploration--profiling)
+    - [ETL Process Using Power Query and Data modeling](#etl-process-using-power-query-and-data-modeling)
+    - [Measures Developmenr Using DAX](#measures-development-using-dax)
+    - [Dashboard Design & Visualisation](#dashboard-design--visualisation
+    - [Plushing and Collaboration](#publishing-and-collaboration)
+    - [Documentation & Version control](#documentation--version-control)
+    - [Review & Iteration](#review--iteration)
+- [Detailed Insights and Recommendation](#detailed-insights-and-recommendations)
+  - [CEO Executive Summary](#ceo-executive-summary)
+  - [Pet Comaprison (Dogs vs Cats)](#pet-comparison-(dogs-vs-cats))
+  - [Household & Demographic Inisghts](#household--demograhpic-insights)
 
 # Project Title
 Lapcat vs Lapdog - Performance & Viability Report for Smart Pet De
