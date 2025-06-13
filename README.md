@@ -60,7 +60,7 @@ This success has led Waggle's CEO to push for feline version but there are conce
 The CEO needs eveidence that the Laptcat device improves cat activity levels and provides owner satifaction on par with Lapdog. The CEO, Product and Marketing teams requires as follow:
 
 - The CEO is curious about the following questions:
-  - Did the average daily steps ibrease for cats wearing the as they did for dogs?
+  - Did the average daily steps Increase for cats wearing the pet device as they did for dogs?
   - Were ownera of Lapcat devices as satifies with the product as Lapdog owners?
 - The chief Marketing officer would like your report to be "on-brand" by including only colors from the waggle color palatte, the waggle logo, and other approved logos and icons.
 - The product team trusts ypu tp incorporate other visuals and insights as you see fit but is most interested in demoprahic comparision between the dogs and cats using Waggle devices as well as any information about the families who own the pets. They would also like slicers to help them filter and explore  on their own.
@@ -70,9 +70,10 @@ The CEO needs eveidence that the Laptcat device improves cat activity levels and
 
 - **CEO** (Strategic Decision Making)
 - **Chief Marketing Officer** (Brand & Visuals)
-- **Product Development Team (Demographic & Performance Analytics)
+- **Product Development Team** (Demographic & Performance Analytics)
 
-## Use Caes
+## Use Cases
+
 
 - Determine whether Lapcat improves pet fitness like Lapdog.
 - Assess owner satifaction and feedback.
@@ -89,7 +90,8 @@ The CEO needs eveidence that the Laptcat device improves cat activity levels and
 
 ## Acceptance Criteria
 
-- Executive report dashboard or summary page answering CEO questions
+- Executive report dashboard or summary page answering CEO, questions.
+- Pet Comparison and Demographic Dashbaords that support decision making or business process improvement for Marketing and Product development team.
 - At least 7 different Power BI visuals accross report
 - At least 5 slicers per page (dropdown, slider, search, hierachy, select all)
 - Use of company colors, logos, icons
@@ -103,6 +105,7 @@ The CEO needs eveidence that the Laptcat device improves cat activity levels and
 - Enhanced team understanding of pet demographic behavior
 - High executive engagment through interactivity
 - Visual appeal reflecting Waggle's branding
+- Comprhensive user friendly designed dasboard meeting all 
 
 
 # Data Structure 
@@ -221,6 +224,309 @@ Reviewed the included data model and business questions and identify which field
 ### ETL Process Using Power Query and Data modeling (wasn't needed)
 
 ### Measures Development Using DAX
+
+I have grouped DAX measures that was created in this project to enhance Dashboard report outcome into three categories, this is to make sure end users can easily understand and consume the report.  
+
+##### CEO EXECUTIVE REPORT DAX MEAURES 
+
+```DAX
+Avg Daily Step = AVERAGE(Tracker_Data[Daily_Steps])
+```
+
+```DAX
+Total Annual Expenses = SUM(Family_Data[Annual_Pet_Expenses])
+```
+
+```DAX
+Total Pet = SUM(Family_Data[Total_Pets])
+```
+
+```DAX
+Total Ratings = COUNT(Rating_Data[Tracker_ID])
+```
+
+```DAX
+Count Most Purchased Channel = 
+CALCULATE(
+    COUNTROWS(Rating_Data),
+    Rating_Data[Where Did You Buy This Product?] = "Waggle.Com"
+)
+```
+
+```DAX
+Most Frequent Recomendation = 
+CALCULATE(
+        SELECTEDVALUE(
+            'Rating_Data'[Where Did You Buy This Product?],
+            TOPN(1,
+             ALL('Rating_Data'[Where Did You Buy This Product?]),
+             [Total Ratings],
+             DESC)
+))
+```
+
+```DAX
+Top Active Pet Family ID = 
+VAR SummaryTable =
+    ADDCOLUMNS(
+        VALUES(Tracker_Data[Pet_ID]),
+        "TotalMinutes", CALCULATE(SUM(Tracker_Data[Activity_Minutes]))
+    )
+VAR TopPet =
+    TOPN(1, SummaryTable, [TotalMinutes], DESC)
+VAR TopPetID = SELECTCOLUMNS(TopPet, "PetID", Tracker_Data[Pet_ID])
+RETURN
+    CALCULATE(
+        SELECTEDVALUE(Family_Data[Family_Name]),
+        FILTER(Tracker_Data, Tracker_Data[Pet_ID] IN TopPetID)
+    )
+```
+
+```DAX
+Top Active Pet Family ID = 
+VAR SummaryTable =
+    ADDCOLUMNS(
+        VALUES(Tracker_Data[Pet_ID]),
+        "TotalMinutes", CALCULATE(SUM(Tracker_Data[Activity_Minutes]))
+    )
+VAR TopPet =
+    TOPN(1, SummaryTable, [TotalMinutes], DESC)
+VAR TopPetID = SELECTCOLUMNS(TopPet, "PetID", Tracker_Data[Pet_ID])
+RETURN
+    CALCULATE(
+        SELECTEDVALUE(Family_Data[Family_Name]),
+        FILTER(Tracker_Data, Tracker_Data[Pet_ID] IN TopPetID)
+    )
+```
+
+
+#### Pet Comparison Report DAX Measures 
+
+```DAX
+Average Activity Minutes = 
+AVERAGE(Tracker_Data[Activity_Minutes])
+```
+
+```DAX
+Average Daily Steps = 
+AVERAGE(Tracker_Data[Daily_steps])
+```
+
+```DAX
+Average Activity MoM % - Cat = 
+VAR CurrentMonthAvg =
+    CALCULATE(
+        [Average Activity Minutes],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Cat"
+        )
+    )
+
+VAR PrevMonthAvg =
+    CALCULATE(
+        [Average Activity Minutes],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Cat"
+        ),
+        DATEADD('Date_Table'[Date], -1, MONTH)
+    )
+
+RETURN
+    IF(
+        NOT ISBLANK(PrevMonthAvg),
+        DIVIDE(CurrentMonthAvg - PrevMonthAvg, PrevMonthAvg),
+        BLANK()
+    )
+```
+
+```DAX
+Average Activity MoM % - Dog = 
+VAR CurrentMonthAvg =
+    CALCULATE(
+        [Average Activity Minutes],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Dog"
+        )
+    )
+
+VAR PrevMonthAvg =
+    CALCULATE(
+        [Average Activity Minutes],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Dog"
+        ),
+        DATEADD('Date_Table'[Date], -1, MONTH)
+    )
+
+RETURN
+    IF(
+        NOT ISBLANK(PrevMonthAvg),
+        DIVIDE(CurrentMonthAvg - PrevMonthAvg, PrevMonthAvg),
+        BLANK()
+    )
+```
+
+```DAX
+Average Daily_Step MoM % - Cat = 
+VAR CurrentMonthAvg =
+    CALCULATE(
+        [Average Daily Steps],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Cat"
+        )
+    )
+
+VAR PrevMonthAvg =
+    CALCULATE(
+        [Average Daily Steps],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Cat"
+        ),
+        DATEADD('Date_Table'[Date], -1, MONTH)
+    )
+
+RETURN
+    IF(
+        NOT ISBLANK(PrevMonthAvg),
+        DIVIDE(CurrentMonthAvg - PrevMonthAvg, PrevMonthAvg),
+        BLANK()
+    )
+```
+
+
+#### Demographic DAX Measures 
+
+```DAX
+Top Cat City = 
+VAR CatSteps =
+    ADDCOLUMNS(
+        SUMMARIZE(
+            Tracker_Data,
+            Family_Data[City]
+        ),
+        "AnimalType", CALCULATE(MAX(Pet_Data[Dog/Cat])),
+        "TotalSteps", CALCULATE(SUM(Tracker_Data[Daily_Steps]), Pet_Data[Dog/Cat] = "Cat")
+    )
+VAR TopCity =
+    TOPN(1, CatSteps, [TotalSteps], DESC)
+RETURN
+    MAXX(TopCity, Family_Data[City])
+```
+
+```DAX
+Top Cat City Steps = 
+VAR CatSteps =
+    ADDCOLUMNS(
+        SUMMARIZE(
+            Tracker_Data,
+            Family_Data[City]
+        ),
+        "AnimalType", CALCULATE(MAX(Pet_Data[Dog/Cat])),
+        "TotalSteps", CALCULATE(SUM(Tracker_Data[Daily_Steps]), Pet_Data[Dog/Cat] = "Cat")
+    )
+VAR TopCity =
+    TOPN(1, CatSteps, [TotalSteps], DESC)
+RETURN
+    MAXX(TopCity, [TotalSteps])
+```
+
+```DAX
+Top Dog City = 
+VAR DogSteps =
+    ADDCOLUMNS(
+        SUMMARIZE(
+            Tracker_Data,
+            Family_Data[City]
+        ),
+        "AnimalType", CALCULATE(MAX(Pet_Data[Dog/Cat])),
+        "TotalSteps", CALCULATE(SUM(Tracker_Data[Daily_Steps]), Pet_Data[Dog/Cat] = "Dog")
+    )
+VAR TopCity =
+    TOPN(1, DogSteps, [TotalSteps], DESC)
+RETURN
+    MAXX(TopCity, Family_Data[City])
+```
+
+```DAX
+Top Dog City Steps = 
+VAR DogSteps =
+    ADDCOLUMNS(
+        SUMMARIZE(
+            Tracker_Data,
+            Family_Data[City]
+        ),
+        "AnimalType", CALCULATE(MAX(Pet_Data[Dog/Cat])),
+        "TotalSteps", CALCULATE(SUM(Tracker_Data[Daily_Steps]), Pet_Data[Dog/Cat] = "Dog")
+    )
+VAR TopCity =
+    TOPN(1, DogSteps, [TotalSteps], DESC)
+RETURN
+    MAXX(TopCity, [TotalSteps])
+```
+
+```DAX
+Top Household Size Category = 
+VAR CategoryTotals =
+    SUMMARIZE(
+        Family_Data,
+        Family_Data[Household Category],
+        "TotalPets", SUM(Family_Data[Total_Pets])
+    )
+VAR TopCategory =
+    TOPN(1, CategoryTotals, [TotalPets], DESC)
+RETURN
+    MAXX(TopCategory, Family_Data[Household Category])
+```
+
+```DAX
+Total Pets in Top Household Size Category = 
+VAR CategoryTotals =
+    SUMMARIZE(
+        Family_Data,
+        Family_Data[Household Category],
+        "TotalPets", SUM(Family_Data[Total_Pets])
+    )
+VAR TopCategory =
+    TOPN(1, CategoryTotals, [TotalPets], DESC)
+RETURN
+    MAXX(TopCategory, [TotalPets])
+```
+
+```DAX
+Average Daily_Step MoM % - Dog = 
+VAR CurrentMonthAvg =
+    CALCULATE(
+        [Average Daily Steps],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Dog"
+        )
+    )
+
+VAR PrevMonthAvg =
+    CALCULATE(
+        [Average Daily Steps],
+        FILTER(
+            ALL(Pet_Data),
+            Pet_Data[Dog/Cat] = "Dog"
+        ),
+        DATEADD('Date_Table'[Date], -1, MONTH)
+    )
+
+RETURN
+    IF(
+        NOT ISBLANK(PrevMonthAvg),
+        DIVIDE(CurrentMonthAvg - PrevMonthAvg, PrevMonthAvg),
+        BLANK()
+    )
+```
+
 
 ### Dashboard Design & Visualisation
 - Developed one or more visulisations that specifically address the CEO's question about whether there was a difference in average daily steps over time between the two devices and how Lapcat owners rated their device compared to Lapdog owners.
