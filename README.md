@@ -592,7 +592,7 @@ No, the Lapcat device did not lead to a noticable increase in cat activitly leve
 No, Lapcat device satifaction is significantly lower than Lapdog. The overwhelming majority of Lapcat users gave low ratings and did not recommend the product, while Lapdog users showed very high satifaction and strong product advocacy.  
   
 
-<br><br><br>**Activity improvement and owner satifaction for Lapcat and Lapdog**
+<br>**Activity improvement and owner satifaction for Lapcat and Lapdog**
 
 **Device Adoption vs Engagment Rate**
 
