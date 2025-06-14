@@ -558,6 +558,7 @@ RETURN
 ### CEO Executive Summary
 
 ![CEO Executive Summary](asset/Images/CEO_Executive_Dashboard.mp4)
+![CEO Executive Summary_1]()
 
 **Executive Insights for the CEO**  
 **Q1: Did the average daily steps increase for cats wearing the Lapcat devices as they did for dogs with Lapdog?**  
