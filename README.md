@@ -567,16 +567,15 @@ Insights from "Cat & Dog Monthly Trend of Avg Daily steps" Visual:
 - **Lapdog users** show a clear seasonal increase in avaerage daily steps, peaking between May-July 2020, where daily steps exceeded 13,000 - 14,000.
 - **Lapcat users**, by contrast, show flat and low activity levels throughout the year, hovering consistently around 2,600 to 2,800 steps per month.
 - In the combined chart, it is evident that dogs respond more postively and actively to the fitness collar than cats.  
-  
+
 
 ** Conclusion for the CEO:**  
 No, the Lapcat device did not lead to a noticable increase in cat activitly levels. Unlike dogs, cats wearing the device did **not demostrate increased engagement or higher movement trends** over time.  
 
 
-##### **Q2: Were owners of Lapcat devices as satisfied with the product as Lapdog Owners?**  
-  
+<br><br><br>**Q2: Were owners of Lapcat devices as satisfied with the product as Lapdog Owners?**  
+**Insights from "Rating Comparison Breakdown" and Overall Rating Category Breakdown":**  
 
-**Insights from "Rating Comparison Breakdown" and Overall Rating Category Breakdown":  
 - **Lapdog**
   - 8,167 users rated the device "**Excellent**"
   - Very few rated it "Poor" or "very Poor"
@@ -593,9 +592,9 @@ No, the Lapcat device did not lead to a noticable increase in cat activitly leve
 No, Lapcat device satifaction is significantly lower than Lapdog. The overwhelming majority of Lapcat users gave low ratings and did not recommend the product, while Lapdog users showed very high satifaction and strong product advocacy.  
   
 
-**Activity improvement and owner satifaction for Lapcat and Lapdog**
+<br><br><br>**Activity improvement and owner satifaction for Lapcat and Lapdog**
 
-**Device  Adoption  vs Engagment Rate**
+**Device Adoption vs Engagment Rate**
 
 - The Lapcat device was distributed to 1,000 customers, yet only 11,000 total activity records were logged.
 - Lapdog, with 5,042 customers, generated 365,800 activity records.
@@ -633,31 +632,13 @@ There is a clear drop-off in Lapcat’s funnel:
 from usage → recommendation → positive rating, the experience breaks down at every step.  
 
 📌 **CEO Insight:**
-This breakdown highlights a lack of product-market fit for Lapcat in its current state. Unlike Lapdog, it fails to deliver value, even among those willing to give it a try. 
-
----
+This breakdown highlights a lack of product-market fit for Lapcat in its current state. Unlike Lapdog, it fails to deliver value, even among those willing to give it a try.  
+<br>
 
 ✅ **5Combined Takeaway for the CEO:**
 Not only did the Lapcat device fail to increase activity levels, but it also failed to retain engagement and convert usage into customer satisfaction. The end-to-end customer journey — from first use to recommendation — is broken.  
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### DASHBOARD 2: Pet Comparison (Dogs VS Cats)
 Visuals  
