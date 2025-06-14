@@ -573,7 +573,7 @@ Insights from "Cat & Dog Monthly Trend of Avg Daily steps" Visual:
 No, the Lapcat device did not lead to a noticable increase in cat activitly levels. Unlike dogs, cats wearing the device did **not demostrate increased engagement or higher movement trends** over time.  
 
 
-<br><br><br>**Q2: Were owners of Lapcat devices as satisfied with the product as Lapdog Owners?**  
+<br>**Q2: Were owners of Lapcat devices as satisfied with the product as Lapdog Owners?**  
 **Insights from "Rating Comparison Breakdown" and Overall Rating Category Breakdown":**  
 
 - **Lapdog**
@@ -611,8 +611,7 @@ This suggest that even among who received Lapcat, engaegment was low - customers
 It's not just that cats walked less - it's that many users didn't use the device long enough to benefit from it, which may explain both flat activity levels and poor ratings.  
 
 
-
-**Drop-off in Recommendation & Rating Flow**
+<br>**Drop-off in Recommendation & Rating Flow**  
 📊 **Observation from the Sankey-style “Recommendation & Ratings Flow”:** 
 
 **Lapcat:**  
@@ -633,12 +632,12 @@ from usage → recommendation → positive rating, the experience breaks down at
 
 📌 **CEO Insight:**
 This breakdown highlights a lack of product-market fit for Lapcat in its current state. Unlike Lapdog, it fails to deliver value, even among those willing to give it a try.  
-<br>
 
-✅ **5Combined Takeaway for the CEO:**
+
+<br>✅ **5Combined Takeaway for the CEO:**
 Not only did the Lapcat device fail to increase activity levels, but it also failed to retain engagement and convert usage into customer satisfaction. The end-to-end customer journey — from first use to recommendation — is broken.  
 
-  
+---  
 
 ### DASHBOARD 2: Pet Comparison (Dogs VS Cats)
 Visuals  
