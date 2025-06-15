@@ -640,7 +640,60 @@ Not only did the Lapcat device fail to increase activity levels, but it also fai
 ---  
 
 ### DASHBOARD 2: Pet Comparison (Dogs VS Cats)
-Visuals  
+**Visuals**  
+**View: Pet Comaprison Insights | Year: 2020**  
+
+**Lapdog** (Dog)  
+
+- Avg Daily steps: **365.80k**
+- Avg Activity Minutes: **108.04 mins**
+- MoM Step Change: **+0.66%**
+- MoM Activity Minutes Change: **+0.02%**  
+
+
+**Lapcat** (Cat)  
+
+- Avg Dialy Steps: **2.76K**
+- Avg Activity Minutes Change: **39.91 mins**
+- MoM Step change: **-0.03%**
+- MoM Activity Minuties Change: **+0.16%**
+
+**Insight:**  
+Dog exhibit significantly higher daily engagement with the Lapdog device, and also show positive growth trends over time.  
+Cats, however, show minimal activity levels, and month-over-month growth is negligible or even negative - suggestion **Lapcat is not yet achieving its intended behaviour-influencing outcomes.  
+
+
+<br>**Monthly Trend of Avg Dialy steps & Activity Minutes  
+- **Dogs (Lapdog):**
+Consistent and growing step avaerages, peaking above **15K daily steps** mid-year (June-August). Activity minutes trend aligns closely, maintaining over **100 min/day** throughout.
+- **Cats (Lapcat):**
+Fluctuating between 2,700 - 2,800 daily steps with flat activity minutes below 40 mins. Miimal spikes or seasonal trends observed.
+
+**Insights:**  
+Dogs show a clear seasonal Uplift in activity, Suggesting the Lapdog device is well integrated inuser routines. Cats show no pattern, indicating a disconnect between device function and user/pet behaviour. **Device design, sensor calibration, or deline behaviour tracking strategies requires rethinking.**
+
+
+<br> **Pet Breed Breakdown by Count & Activities**  
+Lappdog Top Breed (steps and Total activities)  
+- Golden Retriever (5,486 activities) - 678M steps
+- Labrodor (4,384 activities) - 53M steps
+- Bulldog (2,431 activity) - 45M steps
+
+**Lapcat Top Breed**  
+
+- Shorthair American (1,914 activity) - 5.3M steps
+- Shorthair British (1,529 activity) - 4.4M steps
+- Himalayan, Ragdoll and Russain Blue (1,386 - 880 activity) -  range btw 3.9M  to 2.9M steps
+
+**Insight:**  
+The likes of Golden retriever, Labrodir, Bulldog thrives among high-energy large-breed dogs, showing strong engagement. Lapcat is mostly probably used among indoor, low-activity breeds, which may limit natural step output.  
+This reinforces the need for different success metric or engagement method for cats
+
+
+
+
+
+
 
 - Donut chart: Device usage by pet gender
 - Martix: Avg daily steps by breed and age group
@@ -650,7 +703,7 @@ Visuals
 
 ### DASHBOARD 3: Household & Demographic Insights 
 Visuals:  
-- Bar chart: satifaction by owner age group
+**- Bar chart: satifaction by owner age group**
 - Table: Avg steps by household size
 - Card: % multi-pet households
 - Bubble map: Regional rating variation
