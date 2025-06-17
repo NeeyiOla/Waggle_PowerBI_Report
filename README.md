@@ -660,10 +660,10 @@ Not only did the Lapcat device fail to increase activity levels, but it also fai
 
 **Insight:**  
 Dog exhibit significantly higher daily engagement with the Lapdog device, and also show positive growth trends over time.  
-Cats, however, show minimal activity levels, and month-over-month growth is negligible or even negative - suggestion **Lapcat is not yet achieving its intended behaviour-influencing outcomes.  
+Cats, however, show minimal activity levels, and month-over-month growth is negligible or even negative - suggestion **Lapcat is not yet achieving its intended behaviour-influencing outcomes**.  
 
 
-<br>**Monthly Trend of Avg Dialy steps & Activity Minutes  
+<br>**Monthly Trend of Avg Dialy steps & Activity Minutes**   
 - **Dogs (Lapdog):**
 Consistent and growing step avaerages, peaking above **15K daily steps** mid-year (June-August). Activity minutes trend aligns closely, maintaining over **100 min/day** throughout.
 - **Cats (Lapcat):**
@@ -687,8 +687,36 @@ Lappdog Top Breed (steps and Total activities)
 
 **Insight:**  
 The likes of Golden retriever, Labrodir, Bulldog thrives among high-energy large-breed dogs, showing strong engagement. Lapcat is mostly probably used among indoor, low-activity breeds, which may limit natural step output.  
-This reinforces the need for different success metric or engagement method for cats
+This reinforces the need for different success metric or engagement method for cats.
 
+
+<br> **Top 5 Breeds by Daily Steps**
+- Dogs:
+  Golden Retriever leads with 678M steps
+  Pitbull, Bulldog, and Sherpherd also in top 5 - all known for high performing breeds.
+
+- Cats:
+  American Shorthair leads with 5.3M steps, counts accross all breeds are vastly lower than dogs.
+
+**Insight:**  
+Step count benchmarks for cats are orders of magnitude lower, which raises the question:  
+In step count the right primary metric for cats, or should an alternative (e.g., time active, zone detection, or pplay behaviours) be considered?
+
+
+<br> **Daily Steps by Gender and Weight (Scatter plot)**
+
+- Dogs:
+  Clear activity correleation found around 25 - 35kg weight range (female dogs most active).
+  Strong clustering of high step counts in the ideal weight zone.
+
+- **Cats**
+  Scatter plot shows no visible trend - activity uniformly low across all weights and both genders.
+
+**Insight:**  
+Lapdog sensor tracking appears well-calibrated to pet physiology, while Lapcat lacks behavioural predictability, indicating a need for sensor turning, motion sensitivity improvement, or weight-specific thresholds.
+
+
+<br> **Strategic Takeaway for the Product Team**
 
 
 
