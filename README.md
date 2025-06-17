@@ -785,7 +785,100 @@ Top Household Size Group - *Medium* (3,920 pets)
 
 
 Insight: 
-Washington leads as the most active city for both dog and cat devices - suggesting strong device adoption and usage culture in that region. The most common household size category is Medium (4), reinforcing the trend that families with more than 1 or 2 pet are more likely to adopt and engage with Waggle devices.
+Washington leads as the most active city for both dog and cat devices - suggesting strong device adoption and usage culture in that region. The most common household size category is Medium (4), reinforcing the trend that families with more than 1 or 2 pet are more likely to adopt and engage with Waggle devices.  
+
+**TOP ANNUAL EXPENSES BY STATE (Map Visual)**  
+- **Top spenders:**
+  - Texas, Florida, Georgia, and North Carolina Show darker intensity, indication higher average annual pet-realted expenses.
+ 
+- **Top spender:**
+  - Western and northern states (e.g., Wyoming, Montana) show lighter shades, indicating lower investement in pet-related services/devices.
+
+**Inisght:**  
+Target high-expense states like Texas, Florida, Georgia, and North Carolina for premium product marketing, Upsels (e.g., Lapdog+, Lapcat+), or new features like GPS or wellness add-ons.  
+
+**TOTAL PETS BY CITY (Treemap Visual)**  
+Top cities by total pets:  
+
+| City | Pet Count |
+| --- | --- |
+| Washington | 633 |
+| Houston | 389 |
+| New York | 325 |
+| El Paso | 304 |
+| Las Vegas | 264 |
+| Dallas | 234 |
+| Atlanta | 227 |
+| Charleston | 192 |  
+
+
+**Insight:**  
+Urban areas like Washington, Houston, and New York represent high-pet density markets - ideal for targeted city-based campaigns, retail partnerships, or pilot programs.  
+These cities are also for multi-device households due to larger average pet ownership per family.
+
+**FAMILY PURCHASE CHANNEL PREFERENCE (Bar Chart)**
+| Channel | Volume |
+| --- | --- |
+| Waggle.com | 3.67k |
+| Rainforest.com | 2.32K |
+| Waggle | 1.0K |
+| Great Buy | 0.41k |
+| Wall Market | 0.21K |
+| Other | 0.20K |
+| PetFans | 0.08K |  
+
+**Insight:**
+**Waggle.com** dominates as the top purchase channel, accounting for over 36% of device purchasees.
+Second is **Rainforest.com** (assumed Amazon-style marketplace), which remains strong.  
+**Waggle Trail** device testing phase, which was significant for Lapcat.  
+
+**Recommendation:**
+- Strongthen direct-to-consumer e-commerce presence on Waggle.com.
+- Consider launching exclusive Lapcat bundles or trail extensions through Rainforest and Waggle Trail to build trust.
+- Phase out low-conversion retail channels or focus on accessories only.
+
+**HOUSEHOLD SIZE SEGEMENTATION**  
+- Most prevalent group: **Medium_4**
+- Associated total pets: **3,920**
+
+**Insight:**  
+Families with 4 members are the adopters of pet tech devices.  
+This aligns with multi-pet, mid-income households that prioritise pet wellness and activity tracking.  
+
+**Recommendation:**
+Develop household-targeted marketing, such as:
+  - "One device per pet" bundles
+  - Family subscription plans
+  - Educational Content for managing pets across faily members
+
+
+<br> **STRATEGIC TAKEAWAY FOR MARKETING, SALES, AND PRODUCT STRATEGY**  
+**Focus Marketing on Top Cities and States**
+- Prioritize outreach in Washington, Houston, Atlanta, and New York, and target high-spending states like Texas, Georgia, and North Carolina.
+- Use geo-targeted ads, pop-up events, and in-store partnerships in these locations.
+
+
+**Expand E-Commerce and Digital Bundling**
+- Double down on Waggle.com, the most trusted purchase path.
+- Use Rainforest.com for bundled promotions or secondary product upsells.
+- Re-evaluate low-performing channels (Wall Market, PetFans) and optimize them for accessories or awareness campaigns.
+
+**Design for Multi-Pet, Mid-Sized Households**
+- With Medium_4 households dominating, align device bundles and subscriptions for multiple pet use cases.
+- Introduce “family mode” in app design or multi-device management interfaces.
+
+**Treat Washington as a Benchmark Region**
+- High engagement for both dogs and cats.
+- Use it as a pilot region for new features, UI testing, or feedback collection for Lapcat 2.0 improvements.
+
+
+
+
+
+
+
+
+
 
 
 
