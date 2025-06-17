@@ -665,84 +665,128 @@ Cats, however, show minimal activity levels, and month-over-month growth is negl
 
 <br>**Monthly Trend of Avg Dialy steps & Activity Minutes**   
 - **Dogs (Lapdog):**
-Consistent and growing step avaerages, peaking above **15K daily steps** mid-year (June-August). Activity minutes trend aligns closely, maintaining over **100 min/day** throughout.
+  - Consistent monthly step growth from 13K in Jan to ~18K IN dEC.
+  - Activity minutes closely track with step gains - peaking around **108 minutes/day**.
+  - Reflect strong behavioural engagement and seasonality.
+ 
 - **Cats (Lapcat):**
-Fluctuating between 2,700 - 2,800 daily steps with flat activity minutes below 40 mins. Miimal spikes or seasonal trends observed.
+  - Flat average steps across the year (between 2,700-2,800/day).
+  - Minor peack **March**, **September**, and **December**, but no strong seasonal signal.
+  - Activity minutes remain low and erractic, average **~39 minutes**. 
 
-**Insights:**  
-Dogs show a clear seasonal Uplift in activity, Suggesting the Lapdog device is well integrated inuser routines. Cats show no pattern, indicating a disconnect between device function and user/pet behaviour. **Device design, sensor calibration, or deline behaviour tracking strategies requires rethinking.**
+📌**Insights:**  
+- Lapdog shows strong alignment between user behaviour and device use over time.
+- Lapcat fail to demonstrate **seasonal motivatio**, indicating either a **device adoption issues or lack of meaningful engagement among cats or owners>
+
+
+
+
+
+
 
 
 <br> **Pet Breed Breakdown by Count & Activities**  
-Lappdog Top Breed (steps and Total activities)  
-- Golden Retriever (5,486 activities) - 678M steps
-- Labrodor (4,384 activities) - 53M steps
-- Bulldog (2,431 activity) - 45M steps
+Top Dog Breeds by Activity
+| Breed | Total Pet | Total Step Volume |
+| --- | --- | --- |
+| Golden Retriever | 5,486 | 678 Million |
+| Labrador | 4,384 | 53 Million |
+| Bulldog | 2,431 | 43 Million |
 
-**Lapcat Top Breed**  
 
-- Shorthair American (1,914 activity) - 5.3M steps
-- Shorthair British (1,529 activity) - 4.4M steps
-- Himalayan, Ragdoll and Russain Blue (1,386 - 880 activity) -  range btw 3.9M  to 2.9M steps
+**Top Cat Breed by Activity**  
+| Breed | Total Pet | Total Step Volume |
+| --- | --- | --- |
+| Shorthair (American) | 1,914 | 5.3 Million |
+| Shorthair (British) | 1,369 | 4.2 Million |
+| Himalayan | 1,282 | 3.9 Million |
+
 
 **Insight:**  
-The likes of Golden retriever, Labrodir, Bulldog thrives among high-energy large-breed dogs, showing strong engagement. Lapcat is mostly probably used among indoor, low-activity breeds, which may limit natural step output.  
-This reinforces the need for different success metric or engagement method for cats.
+- Dog's top breeds generate 100x + more activity than cats.
+- Lapdog is most adopted  by high-energy breeds, while Lapcat users are skewed toward indoor or sedentary breeds - a key limitation when using step count as a KPI for cats.
 
 
 <br> **Top 5 Breeds by Daily Steps**
 - Dogs:
-  Golden Retriever leads with 678M steps
-  Pitbull, Bulldog, and Sherpherd also in top 5 - all known for high performing breeds.
+  - Golden Retriver; 678 Million steps
+  - Labrador: 53 Million steps
+  - Bulldog, German German Sherpherd, Pitbull: All range between 49 to 39 Million steps
 
 - Cats:
-  American Shorthair leads with 5.3M steps, counts accross all breeds are vastly lower than dogs.
+  - Shorthair (American): 5.3 mILLION STEPS
+  - SHORTHAIR (British): 4.2 Million steps
+  - Himalayan: 3.9 Million stepss
 
 **Insight:**  
-Step count benchmarks for cats are orders of magnitude lower, which raises the question:  
-In step count the right primary metric for cats, or should an alternative (e.g., time active, zone detection, or pplay behaviours) be considered?
+- Lapdog supports sustained usage across all top breeds.
+- For cat, the steps gap is massive, questioning wether steps are a meaningful engagement metric for cat behaviour or if device limitations exist in month detection.
 
 
 <br> **Daily Steps by Gender and Weight (Scatter plot)**
 
 - Dogs:
-  Clear activity correleation found around 25 - 35kg weight range (female dogs most active).
-  Strong clustering of high step counts in the ideal weight zone.
+  - Clear cluster of hight activity between 25 - 35 kg , mostly female dogd.
+  - Strong curve implies good alignment between devices outpus and pet physiology.  
 
 - **Cats**
-  Scatter plot shows no visible trend - activity uniformly low across all weights and both genders.
+ - No discernible trend by weight or gender.
+ - Activity are flat regardless of cat weight - possibly due to
+    - Low feline activity levels
+    - Inaccurate motion detection
+    - Variability in how cats wear the device  
 
 **Insight:**  
-Lapdog sensor tracking appears well-calibrated to pet physiology, while Lapcat lacks behavioural predictability, indicating a need for sensor turning, motion sensitivity improvement, or weight-specific thresholds.
+- Lapdog usage aligns well with pet body metrics - great for tailored product refinement
+- Lapcat needs sensor stategy tailored for subtle or horizontal feline movemenet or alternatively metrics like posture, rest time, or play behaviour.
 
 
-<br> **Strategic Takeaway for the Product Team**
+<br>**STRATEGIC TAKEWAYS FOR THE PRODUCT DEVELOPMENT TEAM**  
+
+**Lapcat Might Requires  Product Recialibration**
+- Movement sensors may not be accurately tracking cat-specific motion.
+- Flat trends and low variance in performance dta support re-engineering.
+- Considering tailoring sensitivity based on breed, weight, or activity baseline.
 
 
+**Rethink Activity Metrics for Cats**
+- Step count may not be a valid measures of activity for most domestic cats
+- Investigate alternative behavioural indicators:
+  - Time out of bed
+  - Playtime
+  - Interaction with household zones or objects
+  - Purring detection or micro-movement sensors
+ 
+**Engagement Design Should Consider Owner Behaviour**
+- Lapdog is regularly worn and data is consistently caputred - proof of strong **Owner compliance**.
+- Lapcat's inconsistent data flow suggest that owners may not use the collar persistently.
+- Address through:
+  - Better onboarding intructions
+  - Comfort-focused collar design
+  - Mobile alert/reminders for recharging or usage
+ 
+**Breed-Specific Design Optimisation**
+- Lapdog breeds have common physical profiles (weight, neck size) - ideal for standard collar sizes.
+- Cats have wider variation in fur, neck posture, and movement; Lapcat may require multiple form factors or a harness-like alternative.
 
-
-
-
-- Donut chart: Device usage by pet gender
-- Martix: Avg daily steps by breed and age group
-- Scatter Plot: Weight vs Activity correlation
-- Bubble map: Pet Concentration by region
-
+---
 
 ### DASHBOARD 3: Household & Demographic Insights 
 Visuals:  
-**- Bar chart: satifaction by owner age group**
-- Table: Avg steps by household size
-- Card: % multi-pet households
-- Bubble map: Regional rating variation
+
+#### View: Demographic & Consumer Behaviour / Year: 2018 - 2020
+
+**Headline KPIs**  
+
+Top Active Pet Family - **Gberaducci* (4,401 mins)  
+Top Dog Dialy Step City - *Washington* (137M Steps)  
+Top Cat Daily Step City - *Washington* (976K steps)  
+Top Household Size Group - *Medium* (3,920 pets)  
 
 
+Insight: 
+Washington leads as the most active city for both dog and cat devices - suggesting strong device adoption and usage culture in that region. The most common household size category is Medium (4), reinforcing the trend that families with more than 1 or 2 pet are more likely to adopt and engage with Waggle devices.
 
-iugoqwydhskpdhijspk[kjpojopkpkdojs
-Label:&nbsp;&nbsp;&nbsp;&nbsp;Value
-gjhsadsopdoiiusdfsapfao[ajpjapp
-
-First line<br><br><br>Third line (with two blank lines above)
 
 
 
