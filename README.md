@@ -559,7 +559,7 @@ RETURN
 
 ![CEO Executive Summary](asset/Images/Short_CEO_Executive_Dashboard_gif.gif)
 
-**Executive Insights for the CEO**  
+**EXECUTIVE INSIGHTS FOR THE CEO**  
 **Q1: Did the average daily steps increase for cats wearing the Lapcat devices as they did for dogs with Lapdog?**  
 
 
@@ -592,7 +592,7 @@ No, the Lapcat device did not lead to a noticable increase in cat activitly leve
 No, Lapcat device satifaction is significantly lower than Lapdog. The overwhelming majority of Lapcat users gave low ratings and did not recommend the product, while Lapdog users showed very high satifaction and strong product advocacy.  
   
 
-<br>**Activity improvement and owner satifaction for Lapcat and Lapdog**
+<br>**Activity improvement and owner satifaction for Lapcat and Lapdog**  
 
 **Device Adoption vs Engagment Rate**
 
@@ -640,9 +640,10 @@ Not only did the Lapcat device fail to increase activity levels, but it also fai
 ---  
 
 ### DASHBOARD 2: Pet Comparison (Dogs VS Cats)
-**Visuals**  
+
 **View: Pet Comaprison Insights | Year: 2020**  
 
+**HEADLINE KPIs**
 **Lapdog** (Dog)  
 
 - Avg Daily steps: **365.80k**
@@ -663,7 +664,7 @@ Dog exhibit significantly higher daily engagement with the Lapdog device, and al
 Cats, however, show minimal activity levels, and month-over-month growth is negligible or even negative - suggestion **Lapcat is not yet achieving its intended behaviour-influencing outcomes**.  
 
 
-<br>**Monthly Trend of Avg Dialy steps & Activity Minutes**   
+<br>**MONTHLY TREND OF AVG DAILY STEPS & ACTIVITY MINUTES**   
 - **Dogs (Lapdog):**
   - Consistent monthly step growth from 13K in Jan to ~18K IN dEC.
   - Activity minutes closely track with step gains - peaking around **108 minutes/day**.
@@ -680,12 +681,7 @@ Cats, however, show minimal activity levels, and month-over-month growth is negl
 
 
 
-
-
-
-
-
-<br> **Pet Breed Breakdown by Count & Activities**  
+<br> **PET BREED BREAKDOWN BY TOTAL PET & ACTIVITY**  
 Top Dog Breeds by Activity
 | Breed | Total Pet | Total Step Volume |
 | --- | --- | --- |
@@ -707,7 +703,7 @@ Top Dog Breeds by Activity
 - Lapdog is most adopted  by high-energy breeds, while Lapcat users are skewed toward indoor or sedentary breeds - a key limitation when using step count as a KPI for cats.
 
 
-<br> **Top 5 Breeds by Daily Steps**
+<br> **TOP 5 BREEDS BY DAILY STEPS**
 - Dogs:
   - Golden Retriver; 678 Million steps
   - Labrador: 53 Million steps
@@ -723,7 +719,7 @@ Top Dog Breeds by Activity
 - For cat, the steps gap is massive, questioning wether steps are a meaningful engagement metric for cat behaviour or if device limitations exist in month detection.
 
 
-<br> **Daily Steps by Gender and Weight (Scatter plot)**
+<br> **DAILY STEPS BY GENDER AND WEIGHT**
 
 - Dogs:
   - Clear cluster of hight activity between 25 - 35 kg , mostly female dogd.
@@ -736,7 +732,7 @@ Top Dog Breeds by Activity
     - Inaccurate motion detection
     - Variability in how cats wear the device  
 
-**Insight:**  
+**Insight:**
 - Lapdog usage aligns well with pet body metrics - great for tailored product refinement
 - Lapcat needs sensor stategy tailored for subtle or horizontal feline movemenet or alternatively metrics like posture, rest time, or play behaviour.
 
@@ -769,12 +765,14 @@ Top Dog Breeds by Activity
 - Lapdog breeds have common physical profiles (weight, neck size) - ideal for standard collar sizes.
 - Cats have wider variation in fur, neck posture, and movement; Lapcat may require multiple form factors or a harness-like alternative.
 
+
+<br>
 ---
 
 ### DASHBOARD 3: Household & Demographic Insights 
-Visuals:  
 
-#### View: Demographic & Consumer Behaviour / Year: 2018 - 2020
+
+#### View: Demographic & Consumer Behaviour / Year: 2018 - 2020 Visuals:  
 
 **Headline KPIs**  
 
@@ -784,7 +782,7 @@ Top Cat Daily Step City - *Washington* (976K steps)
 Top Household Size Group - *Medium* (3,920 pets)  
 
 
-Insight: 
+Insight:  
 Washington leads as the most active city for both dog and cat devices - suggesting strong device adoption and usage culture in that region. The most common household size category is Medium (4), reinforcing the trend that families with more than 1 or 2 pet are more likely to adopt and engage with Waggle devices.  
 
 **TOP ANNUAL EXPENSES BY STATE (Map Visual)**  
@@ -797,7 +795,7 @@ Washington leads as the most active city for both dog and cat devices - suggesti
 **Inisght:**  
 Target high-expense states like Texas, Florida, Georgia, and North Carolina for premium product marketing, Upsels (e.g., Lapdog+, Lapcat+), or new features like GPS or wellness add-ons.  
 
-**TOTAL PETS BY CITY (Treemap Visual)**  
+**TOTAL PETS BY CITY**  
 Top cities by total pets:  
 
 | City | Pet Count |
@@ -813,10 +811,10 @@ Top cities by total pets:
 
 
 **Insight:**  
-Urban areas like Washington, Houston, and New York represent high-pet density markets - ideal for targeted city-based campaigns, retail partnerships, or pilot programs.  
-These cities are also for multi-device households due to larger average pet ownership per family.
+- Urban areas like Washington, Houston, and New York represent high-pet density markets - ideal for targeted city-based campaigns, retail partnerships, or pilot programs.  
+- These cities are also for multi-device households due to larger average pet ownership per family.
 
-**FAMILY PURCHASE CHANNEL PREFERENCE (Bar Chart)**
+**FAMILY PURCHASE CHANNEL PREFERENCE**
 | Channel | Volume |
 | --- | --- |
 | Waggle.com | 3.67k |
@@ -827,7 +825,7 @@ These cities are also for multi-device households due to larger average pet owne
 | Other | 0.20K |
 | PetFans | 0.08K |  
 
-**Insight:**
+**Insight:**  
 **Waggle.com** dominates as the top purchase channel, accounting for over 36% of device purchasees.
 Second is **Rainforest.com** (assumed Amazon-style marketplace), which remains strong.  
 **Waggle Trail** device testing phase, which was significant for Lapcat.  
@@ -845,14 +843,14 @@ Second is **Rainforest.com** (assumed Amazon-style marketplace), which remains s
 Families with 4 members are the adopters of pet tech devices.  
 This aligns with multi-pet, mid-income households that prioritise pet wellness and activity tracking.  
 
-**Recommendation:**
+**Recommendation:**  
 Develop household-targeted marketing, such as:
   - "One device per pet" bundles
   - Family subscription plans
   - Educational Content for managing pets across faily members
 
 
-<br> **STRATEGIC TAKEAWAY FOR MARKETING, SALES, AND PRODUCT STRATEGY**  
+<br> **STRATEGIC TAKEAWAY FOR MARKETING, SALES, AND PRODUCT STRATEGY**
 **Focus Marketing on Top Cities and States**
 - Prioritize outreach in Washington, Houston, Atlanta, and New York, and target high-spending states like Texas, Georgia, and North Carolina.
 - Use geo-targeted ads, pop-up events, and in-store partnerships in these locations.
@@ -870,25 +868,6 @@ Develop household-targeted marketing, such as:
 **Treat Washington as a Benchmark Region**
 - High engagement for both dogs and cats.
 - Use it as a pilot region for new features, UI testing, or feedback collection for Lapcat 2.0 improvements.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
