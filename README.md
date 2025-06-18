@@ -210,14 +210,14 @@ With the Tracker_Data table being the fact table and the like of Rating_Data, Pe
 
 General Approach to creating the Solution:
 
-### Project Planning & Requirement Gathering
+### **Project Planning & Requirement Gathering**
 
 - Met with Waggle Stakeholder to gather business questions and branding requirements.
 1. Understanding the data: 
 Reviewed the included data model and business questions and identify which fields can be used to design metrics that answer the CEO's questions. (That's all, just understand the data!)
 - Scoped key deliverables, visuals, and interactivity features.
 
-### Data Exploration & Profiling
+### **Data Exploration & Profiling**
 - Profiles tables for nulls, duplicates, and data types
 - Checked devices usage consistency and rating completness
 
@@ -227,7 +227,7 @@ Reviewed the included data model and business questions and identify which field
 
 I have grouped DAX measures that was created in this project to enhance Dashboard report outcome into three categories, this is to make sure end users can easily understand and consume the report.  
 
-##### CEO EXECUTIVE REPORT DAX MEAURES 
+##### **CEO EXECUTIVE REPORT DAX MEAURES** 
 
 ```DAX
 Avg Daily Step = AVERAGE(Tracker_Data[Daily_Steps])
@@ -300,7 +300,7 @@ RETURN
 ```
 
 
-#### Pet Comparison Report DAX Measures 
+#### **Pet Comparison Report DAX Measures** 
 
 ```DAX
 Average Activity Minutes = 
@@ -400,7 +400,7 @@ RETURN
 ```
 
 
-#### Demographic DAX Measures 
+#### **Demographic DAX Measures** 
 
 ```DAX
 Top Cat City = 
@@ -528,7 +528,7 @@ RETURN
 ```
 
 
-### Dashboard Design (Mockkup) & Visualisation Requirements
+### ** Visualisation Requirements**
 - Developed one or more visulisations that specifically address the CEO's question about whether there was a difference in average daily steps over time between the two devices and how Lapcat owners rated their device compared to Lapdog owners.
 - Address the product  team's  request for demographic insights, using each of the following visuals at least once, Bar chart, Line chart, Table/Matrix, scatter plot, bubble map, and card.
 - Making sure my data visualisations and design an appropriate layout that emphasises the most important fings first, with the CEO's questions answered on the first page, insights about the differences between dogs and cats on the second, and insights about the families who own the pets on the third
@@ -538,7 +538,7 @@ RETURN
 - Created buttons that help the users navigate the created report. Buttons must respond when users hover them by changing color size.
 
 
-### Dashboard Design (Mockkup)
+### **Dashboard Design (Mockkup)**
 In other to achieve a succeful Power Bi report that meet the Stakeholders requirements, an initiative of drafting out a rough sketch of how eash Dashboard would end up looking making sure the stakeholder could be carried along and change anything thing that might not meet their requiremnt satisfaction. So, i have to go extra mile to use **MOKKUP.AI** a website that empower BI Developer to design their dashboard report as they desire. The below images are targeted end goal for the waggle report visualisation.  
 
 
@@ -572,8 +572,7 @@ In other to achieve a succeful Power Bi report that meet the Stakeholders requir
 
 
 # Detailed Insights and Recommendations 
-### DASHBOARD 1
-### CEO Executive Summary
+### **DASHBOARD 1: CEO Executive Summary**
 
 ![CEO Executive Summary](asset/Images/Short_CEO_Executive_Dashboard_gif.gif)
 
@@ -690,7 +689,7 @@ It's not just that cats walked less - it's that many users didn't use the device
 
 ---  
 
-### DASHBOARD 2: Pet Comparison (Dogs VS Cats)
+### **DASHBOARD 2: Pet Comparison (Dogs VS Cats)**
 
 ![CEO Executive Summary](asset/Images/Dahboard_2_Pet_Comparison_gif.gif)
 
@@ -824,7 +823,7 @@ Top Dog Breeds by Activity
 
 ---
 
-### DASHBOARD 3: Household & Demographic Insights 
+### **DASHBOARD 3: Household & Demographic Insights** 
 
 ![CEO Executive Summary](asset/Images/Dashboard_3_Demograhic_ezgif.gif)
 
@@ -872,6 +871,7 @@ Top cities by total pets:
 - These cities are also for multi-device households due to larger average pet ownership per family.
 
 **FAMILY PURCHASE CHANNEL PREFERENCE**  
+
 | Channel | Volume |
 | --- | --- |
 | Waggle.com | 3.67k |
