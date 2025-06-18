@@ -578,7 +578,7 @@ In other to achieve a succeful Power Bi report that meet the Stakeholders requir
 ![CEO Executive Summary](asset/Images/Short_CEO_Executive_Dashboard_gif.gif)
 
 
-**View: CEO Executive Summary | Year: 2020
+**View: CEO Executive Summary / Year: 2020
 
 **HEADLINE KPIs**  
 
@@ -617,7 +617,8 @@ This suggests that either:
 **CEO QUESTION 2:**  
 **Were owner of Lapcat devices as satisfied with the product as  Lapdog Owners?**  
 
-**Rating Comparison Breakdown**
+**Rating Comparison Breakdown**  
+
 | Rating | Lapcat Count | Lapdog Count |
 | --- | --- | --- |
 | Execellent | 5 | 8,167 |
@@ -693,7 +694,7 @@ It's not just that cats walked less - it's that many users didn't use the device
 
 ![CEO Executive Summary](asset/Images/Dahboard_2_Pet_Comparison_gif.gif)
 
-**View: Pet Comaprison Insights | Year: 2020**  
+**View: Pet Comaprison Insights / Year: 2020**  
 
 **HEADLINE KPIs**
 **Lapdog** (Dog)  
@@ -734,7 +735,9 @@ Cats, however, show minimal activity levels, and month-over-month growth is negl
 
 
 <br> **PET BREED BREAKDOWN BY TOTAL PET & ACTIVITY**  
-Top Dog Breeds by Activity
+
+Top Dog Breeds by Activity  
+
 | Breed | Total Pet | Total Step Volume |
 | --- | --- | --- |
 | Golden Retriever | 5,486 | 678 Million |
@@ -743,6 +746,7 @@ Top Dog Breeds by Activity
 
 
 **Top Cat Breed by Activity**  
+
 | Breed | Total Pet | Total Step Volume |
 | --- | --- | --- |
 | Shorthair (American) | 1,914 | 5.3 Million |
@@ -784,7 +788,7 @@ Top Dog Breeds by Activity
     - Inaccurate motion detection
     - Variability in how cats wear the device  
 
-**Insight:**
+📌**Insight:**
 - Lapdog usage aligns well with pet body metrics - great for tailored product refinement
 - Lapcat needs sensor stategy tailored for subtle or horizontal feline movemenet or alternatively metrics like posture, rest time, or play behaviour.
 
@@ -824,7 +828,7 @@ Top Dog Breeds by Activity
 
 ![CEO Executive Summary](asset/Images/Dashboard_3_Demograhic_ezgif.gif)
 
-#### View: Demographic & Consumer Behaviour / Year: 2018 - 2020 Visuals:  
+**View: Demographic & Consumer Behaviour / Year: 2018 - 2020 Visuals:**  
 
 **Headline KPIs**  
 
@@ -848,6 +852,7 @@ Washington leads as the most active city for both dog and cat devices - suggesti
 Target high-expense states like Texas, Florida, Georgia, and North Carolina for premium product marketing, Upsels (e.g., Lapdog+, Lapcat+), or new features like GPS or wellness add-ons.  
 
 **TOTAL PETS BY CITY**  
+
 Top cities by total pets:  
 
 | City | Pet Count |
@@ -866,7 +871,8 @@ Top cities by total pets:
 - Urban areas like Washington, Houston, and New York represent high-pet density markets - ideal for targeted city-based campaigns, retail partnerships, or pilot programs.  
 - These cities are also for multi-device households due to larger average pet ownership per family.
 
-**FAMILY PURCHASE CHANNEL PREFERENCE**
+**FAMILY PURCHASE CHANNEL PREFERENCE**  
+
 | Channel | Volume |
 | --- | --- |
 | Waggle.com | 3.67k |
@@ -922,7 +928,7 @@ Develop household-targeted marketing, such as:
 - Use it as a pilot region for new features, UI testing, or feedback collection for Lapcat 2.0 improvements.
 
 
-#### Link to Waggle Power Bi Report 
+#### **Link to Waggle Power Bi Report**  
 
 Using the link below will enable you to gain access to interact with the report and semantic model behing the success of the End Product.
 
