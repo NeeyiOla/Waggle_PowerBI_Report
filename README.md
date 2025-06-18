@@ -227,9 +227,12 @@ Reviewed the included data model and business questions and identify which field
 
 ### **Measures Development Using DAX**
 
-I have grouped DAX measures that was created in this project to enhance Dashboard report outcome into three categories, this is to make sure end users can easily understand and consume the report.  
+To enhance the clarity and usability of this report, all DAX measures created for this project have been organized into three distinct categories. This structured grouping ensures that end users can more easily understand, navigate, and interpret the insights presented within the dashboard.
 
-**CEO EXECUTIVE REPORT DAX MEAURES** 
+Let me know if you'd like to list or label the three categories as well.
+  
+
+**CEO Executive Report Dax Measures**
 
 ```DAX
 Avg Daily Step = AVERAGE(Tracker_Data[Daily_Steps])
@@ -541,8 +544,7 @@ RETURN
 
 
 ### **Dashboard Design (Mockkup)**
-In other to achieve a succeful Power Bi report that meet the Stakeholders requirements, an initiative of drafting out a rough sketch of how eash Dashboard would end up looking making sure the stakeholder could be carried along and change anything thing that might not meet their requiremnt satisfaction. So, i have to go extra mile to use **MOKKUP.AI** a website that empower BI Developer to design their dashboard report as they desire. The below images are targeted end goal for the waggle report visualisation.  
-
+To ensure the Power BI report successfully met stakeholder expectations, an initial step involved drafting a rough visual layout for each dashboard. This approach allowed stakeholders to review and provide feedback early in the design process, ensuring alignment with their requirements. To support this initiative, I utilized MOKKUP.AI—a platform that enables BI developers to design and prototype dashboard visuals effectively. The images below represent the intended visual outcomes for the final Waggle report.
 
 <br> **MOKKUP DESIGN DASHBOARD 1**  
 
