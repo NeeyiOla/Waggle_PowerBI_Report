@@ -832,7 +832,7 @@ Top Dog Breeds by Activity
 
 **Headline KPIs**  
 
-Top Active Pet Family - **Gberaducci* (4,401 mins)  
+Top Active Pet Family - *Gberaducci* (4,401 mins)  
 Top Dog Dialy Step City - *Washington* (137M Steps)  
 Top Cat Daily Step City - *Washington* (976K steps)  
 Top Household Size Group - *Medium* (3,920 pets)  
@@ -872,7 +872,6 @@ Top cities by total pets:
 - These cities are also for multi-device households due to larger average pet ownership per family.
 
 **FAMILY PURCHASE CHANNEL PREFERENCE**  
-
 | Channel | Volume |
 | --- | --- |
 | Waggle.com | 3.67k |
