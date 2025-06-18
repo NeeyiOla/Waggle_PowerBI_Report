@@ -559,42 +559,79 @@ RETURN
 
 ![CEO Executive Summary](asset/Images/Short_CEO_Executive_Dashboard_gif.gif)
 
-**EXECUTIVE INSIGHTS FOR THE CEO**  
-**Q1: Did the average daily steps increase for cats wearing the Lapcat devices as they did for dogs with Lapdog?**  
+
+**View: CEO Executive Summary | Year: 2020
+
+**HEADLINE KPIs**  
+
+| Metric | Lapcat | Lapdog | Combined Summary |
+| --- | --- | --- | --- |
+| Total Customers | 1,000 | 5,042 | 5,638 |
+| Total Activity Count | 11.00K | 365.80K | 376.80K |
+| Best Purchasing Channel | Waggle Trail | Waggle.com(6,103) | Waggle.com |  
 
 
-Insights from "Cat & Dog Monthly Trend of Avg Daily steps" Visual:
-- **Lapdog users** show a clear seasonal increase in avaerage daily steps, peaking between May-July 2020, where daily steps exceeded 13,000 - 14,000.
-- **Lapcat users**, by contrast, show flat and low activity levels throughout the year, hovering consistently around 2,600 to 2,800 steps per month.
-- In the combined chart, it is evident that dogs respond more postively and actively to the fitness collar than cats.  
+**CEO QUESTION 1:**  
+
+**Did the avreage daily steps increase for cats wearing the Lapcat device as they did for dogs with Lapdog?**  
+
+**Cat and Dog Monthly Trend of Avg Daily Steps**  
+
+| Month | Lapcat Steps (approx) | Lapdog Steps (approx) |
+| --- | --- | --- | --- |
+| Peak Month | ~2,850 (March/April) | ~14,500 - 15,000(May-Aug) |
+| Low Month | ~2,600 (July/August | ~13,000 (Jan/Feb) |  
 
 
-** Conclusion for the CEO:**  
-No, the Lapcat device did not lead to a noticable increase in cat activitly levels. Unlike dogs, cats wearing the device did **not demostrate increased engagement or higher movement trends** over time.  
+**Insight:**
+- **Lapdog** users show a clear upward trend in activity throughout the year, peaking in summer months - suggesting seasonal engagement and sustained usage.
+- **Lapcat** activity levels remain flat and low with no meaningful month-over-month improvement.
+- Average cat steps **hoover around 2.7K** throughout the year, compared to dogs with **13K - 15K**.
 
 
-<br>**Q2: Were owners of Lapcat devices as satisfied with the product as Lapdog Owners?**  
-**Insights from "Rating Comparison Breakdown" and Overall Rating Category Breakdown":**  
+**CONCLUSION**  
+❌ No, the Lapcat device did not improve cat activity levels in the dame way Lapdog did for dogs.  
+This suggests that either:
+- The device is not influencing feline behaviour, or
+- Cat may require a different form of engagement metric beyond step tracking.
 
-- **Lapdog**
-  - 8,167 users rated the device "**Excellent**"
-  - Very few rated it "Poor" or "very Poor"
-  - Strong majority of users also recommended the device (9,058 said "Yes")
 
-- **Lapcat:**
-  - 539 users rated it "Very Poor"
-  - 237 said "Poor"
-  - Only 7 users rated it "Good" and none rated it "Excellent"
-  - Only 111 users said they would recommend it - vs. 889 who would not
+**CEO QUESTION 2:**  
+**Were owner of Lapcat devices as satisfied with the product as  Lapdog Owners?**  
 
- 
-**Conclusion for the CEO:**
-No, Lapcat device satifaction is significantly lower than Lapdog. The overwhelming majority of Lapcat users gave low ratings and did not recommend the product, while Lapdog users showed very high satifaction and strong product advocacy.  
+**Rating Comparison Breakdown**
+| Rating | Lapcat Count | Lapdog Count |
+| --- | --- | --- |
+| Execellent | 5 | 8,167 |
+| Good | 7 | 975 |
+| Average | 24 | 938 |
+| Poor | 142 | 84 |
+| Very | 533 | 33 |
+| Net Promoters (Y/N) | 111/889 | 9,058/1,103 |  
+
+
+**Insight:**  
+- Lapdog users gave over  **8,100 "Excellent"** ratings, with 89.5% willing to recommend the device.
+- Lapcat  recieved just 5 " Execellent" ratings and nearly 77% of users rated it Poor or Very poor.
+- Only 11% of Lapcat users said they'd recommend the product, compared to over 90% for Lapdog.
+
+**CONCLUSION**
+❌ No, ownwer of Lapcat devices were not as satified as satified as Lapdog owners.  
+The device did not meet expectations, either due to:
+  - Poor fit or comfort for cats
+  - Limited behavioural response
+  - Underwhelming features or usability for owners
+
+
+**DEVICE TYPE DISTRIBUTION**
+- Lapdog makes up 97.08% of total Waggle device adoption (10,161 devices).
+- Lapcat accounts for just 2.92% (approx. 304 active devices).  
+
+**Insight:**
+- The Lapcat device remains in early evaluation. Low user rating and minimal activity response suggest it's not yet ready for scale or broader marketing rollout.
   
 
-<br>**Activity improvement and owner satifaction for Lapcat and Lapdog**  
-
-**Device Adoption vs Engagment Rate**
+**DEVICE ADOPTIONVS ENGAGEMENT RATE**
 
 - The Lapcat device was distributed to 1,000 customers, yet only 11,000 total activity records were logged.
 - Lapdog, with 5,042 customers, generated 365,800 activity records.
@@ -611,31 +648,13 @@ This suggest that even among who received Lapcat, engaegment was low - customers
 It's not just that cats walked less - it's that many users didn't use the device long enough to benefit from it, which may explain both flat activity levels and poor ratings.  
 
 
-<br>**Drop-off in Recommendation & Rating Flow**  
-📊 **Observation from the Sankey-style “Recommendation & Ratings Flow”:** 
+ <br> **STRATEGIC TAKEAWAYS FOR STAKEHOLDERS**  
 
-**Lapcat:**  
+ **For CEO Decision-Making**
+ - Lapdog is a success: high engagement, strong satisfaction, and stable market presence.
+ - Lapcat is not yet vaible for broad deployment and requires product iteration and behavioural research.
+ - Recommendation: Invest in Lapcat Research & Development **(R&D)**, not scale.
 
-- Of the 1,000 devices distributed, only 111 users said they’d recommend it
-
-- Of those, only 7–24 rated it as "Good" or "Average", and 0 rated it as "Excellent"  
-
-**Lapdog:**  
-
-- Over 9,000 recommendations
-
-- Majority transitioned into “Excellent” or “Good” ratings
-
-✅ **Interpretation:**
-There is a clear drop-off in Lapcat’s funnel:
-from usage → recommendation → positive rating, the experience breaks down at every step.  
-
-📌 **CEO Insight:**
-This breakdown highlights a lack of product-market fit for Lapcat in its current state. Unlike Lapdog, it fails to deliver value, even among those willing to give it a try.  
-
-
-<br>✅ **5Combined Takeaway for the CEO:**
-Not only did the Lapcat device fail to increase activity levels, but it also failed to retain engagement and convert usage into customer satisfaction. The end-to-end customer journey — from first use to recommendation — is broken.  
 
 ---  
 
