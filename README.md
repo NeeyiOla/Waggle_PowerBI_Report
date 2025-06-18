@@ -114,7 +114,7 @@ In support of this project a data model was already provided in a Power BI file 
 
 ## Dataset
 
-#### FACT TABLE:  
+**FACT TABLE:**  
 
 **Tracker_Data:**  
 
@@ -129,7 +129,7 @@ In support of this project a data model was already provided in a Power BI file 
 | Tracker_ID | Whole number | Unique identifier (Primary Key) for each record in the Tracker table |
 
 
-#### DIMENSION TABLE:
+**DIMENSION TABLE:**
 
 **Family_Data**  
 
@@ -175,7 +175,7 @@ In support of this project a data model was already provided in a Power BI file 
 | Would you Recommend | Text | feedback on a survey question |
 
 
-#### DATE TABLE:
+**DATE TABLE:**
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
@@ -221,13 +221,15 @@ Reviewed the included data model and business questions and identify which field
 - Profiles tables for nulls, duplicates, and data types
 - Checked devices usage consistency and rating completness
 
-### ETL Process Using Power Query and Data modeling (wasn't needed)
+### **ETL Process Using Power Query and Data modeling** 
 
-### Measures Development Using DAX
+(wasn't needed)
+
+### **Measures Development Using DAX**
 
 I have grouped DAX measures that was created in this project to enhance Dashboard report outcome into three categories, this is to make sure end users can easily understand and consume the report.  
 
-##### **CEO EXECUTIVE REPORT DAX MEAURES** 
+**CEO EXECUTIVE REPORT DAX MEAURES** 
 
 ```DAX
 Avg Daily Step = AVERAGE(Tracker_Data[Daily_Steps])
@@ -300,7 +302,7 @@ RETURN
 ```
 
 
-#### **Pet Comparison Report DAX Measures** 
+**Pet Comparison Report DAX Measures** 
 
 ```DAX
 Average Activity Minutes = 
@@ -400,7 +402,7 @@ RETURN
 ```
 
 
-#### **Demographic DAX Measures** 
+**Demographic DAX Measures** 
 
 ```DAX
 Top Cat City = 
@@ -528,7 +530,7 @@ RETURN
 ```
 
 
-### ** Visualisation Requirements**
+### **Visualisation Requirements**
 - Developed one or more visulisations that specifically address the CEO's question about whether there was a difference in average daily steps over time between the two devices and how Lapcat owners rated their device compared to Lapdog owners.
 - Address the product  team's  request for demographic insights, using each of the following visuals at least once, Bar chart, Line chart, Table/Matrix, scatter plot, bubble map, and card.
 - Making sure my data visualisations and design an appropriate layout that emphasises the most important fings first, with the CEO's questions answered on the first page, insights about the differences between dogs and cats on the second, and insights about the families who own the pets on the third
@@ -555,17 +557,17 @@ In other to achieve a succeful Power Bi report that meet the Stakeholders requir
 ![Mokkup Design Dashboard 3](asset/Images/Waggle_Mokkup_Dashboard_3.png)  
 
 
-### Publishing and Collaboration
+### **Publishing and Collaboration**
 - Uploaded to Power BI service for real-time sharing
 - Enabled usage metric and filter reset bookmark
 - Enables Role Level Security (RLS)
 
 
-### Documentation & Version Control
+### **Documentation & Version Control**
 - README.md and Power BI documentation hosted on GitHub
 - PBIX file versioned for feedback cycles
 
-## Review & Iteration
+### **Review & Iteration**
 - Conducted dry-run with Stakeholder
 - Updated layout and labels for clarity
 - Refined slicer configuration based on user testing
@@ -577,9 +579,9 @@ In other to achieve a succeful Power Bi report that meet the Stakeholders requir
 ![CEO Executive Summary](asset/Images/Short_CEO_Executive_Dashboard_gif.gif)
 
 
-**View: CEO Executive Summary / Year: 2020
+**View: CEO Executive Summary / Year: 2020**
 
-**HEADLINE KPIs**  
+**Headline KPIs**  
 
 | Metric | Lapcat | Lapdog | Combined Summary |
 | --- | --- | --- | --- |
@@ -695,7 +697,7 @@ It's not just that cats walked less - it's that many users didn't use the device
 
 **View: Pet Comaprison Insights / Year: 2020**  
 
-**HEADLINE KPIs**
+**Headline KPIs**
 **Lapdog** (Dog)  
 
 - Avg Daily steps: **365.80k**
@@ -765,8 +767,8 @@ Top Dog Breeds by Activity
   - Bulldog, German German Sherpherd, Pitbull: All range between 49 to 39 Million steps
 
 - Cats:
-  - Shorthair (American): 5.3 mILLION STEPS
-  - SHORTHAIR (British): 4.2 Million steps
+  - Shorthair (American): 5.3 Million Steps
+  - Shorthair (British): 4.2 Million steps
   - Himalayan: 3.9 Million stepss
 
 📌**Insight:**  
