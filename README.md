@@ -223,7 +223,7 @@ Reviewed the included data model and business questions and identify which field
 
 ### **ETL Process Using Power Query and Data modeling** 
 
-(wasn't needed)
+The ETL process using Power Query and data modeling was not required in this project, as this stage had already been completed by the previous BI developer. A pre-defined data model was provided as part of the project resources to support the analysis, while a well-structured dataset was included specifically for future learning purposes. As a result, the focus of this project was on developing insightful visualizations, creating effective DAX measures, and delivering a report aligned with stakeholder requirements—rather than performing additional data transformation or modeling tasks.
 
 ### **Measures Development Using DAX**
 
