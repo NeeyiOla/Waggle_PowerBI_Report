@@ -537,6 +537,24 @@ RETURN
 - Created at least two bookmark features. One must allow users to dynamically swap one visual out with different one and another must reset all applied filters on the page/
 - Created buttons that help the users navigate the created report. Buttons must respond when users hover them by changing color size.
 
+
+### Dashboard Design (Mockkup)
+In other to achieve a succeful Power Bi report that meet the Stakeholders requirements, an initiative of drafting out a rough sketch of how eash Dashboard would end up looking making sure the stakeholder could be carried along and change anything thing that might not meet their requiremnt satisfaction. So, i have to go extra mile to use **MOKKUP.AI** a website that empower BI Developer to design their dashboard report as they desire. The below images are targeted end goal for the waggle report visualisation.  
+
+
+<br> **MOKKUP DESIGN DASHBOARD 1**  
+
+![Mokkup Design Dashboard 1](asset/Images/Screen1.png)
+
+**MOKKUP DESIGN DASHBOARD 2**  
+
+![Mokkup Design Dashboard 2](asset/Images/Waggle_Mokkup_Dashboard_2.png)
+
+**MOKKUP DESIGN DASHBOARD 3**  
+
+![Mokkup Design Dashboard 3](asset/Images/Waggle_Mokkup_Dashboard_3.png)  
+
+
 ### Publishing and Collaboration
 - Uploaded to Power BI service for real-time sharing
 - Enabled usage metric and filter reset bookmark
@@ -904,7 +922,12 @@ Develop household-targeted marketing, such as:
 - Use it as a pilot region for new features, UI testing, or feedback collection for Lapcat 2.0 improvements.
 
 
+#### Link to Waggle Power Bi Report 
 
+Using the link below will enable you to gain access to interact with the report and semantic model behing the success of the End Product.
+
+
+[![View Report](https://img.shields.io/badge/View%20Power%20BI%20Report-Click%20Here-blue)](https://app.powerbi.com/view?r=eyJrIjoiMWNhNWRhODYtYjA4NC00MGJmLTgwYmQtNTU2N2NhZmJhZGFmIiwidCI6IjJhMzA1NzYxLWY5N2QtNDdlNC04ZjBmLWE2YzIwYzNmZWI3MyIsImMiOjh9&pageName=ReportSection28ae0a6715bb9d8ac70a)
 
 
 
