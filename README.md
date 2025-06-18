@@ -2,7 +2,7 @@
 
 ## Waggle Pet Device Company: Comparitive Performance of Lapdog and Lapcat Smart device
 
-![Waggle Lapdog and Lapcat Logos](
+![Waggle Lapdog and Lapcat Logos](asset/Images/waggle_logo_yellow.png)
 
 # Table of Content
 - [Project Title](#project-title)
@@ -660,6 +660,8 @@ It's not just that cats walked less - it's that many users didn't use the device
 
 ### DASHBOARD 2: Pet Comparison (Dogs VS Cats)
 
+![CEO Executive Summary](asset/Images/Dahboard_2_Pet_Comparison_gif.gif)
+
 **View: Pet Comaprison Insights | Year: 2020**  
 
 **HEADLINE KPIs**
@@ -790,6 +792,7 @@ Top Dog Breeds by Activity
 
 ### DASHBOARD 3: Household & Demographic Insights 
 
+![CEO Executive Summary](asset/Images/Dashboard_3_Demograhic_ezgif.gif)
 
 #### View: Demographic & Consumer Behaviour / Year: 2018 - 2020 Visuals:  
 
